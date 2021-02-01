@@ -1,0 +1,60 @@
+body {
+    background-color: darkorange;
+    color:white;
+    font-family: 'Bangers', cursive;
+    -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+    user-select: none;
+}
+
+
+
+.menu span {
+    border-radius: 10px;
+    background-color: darkmagenta;
+}
+
+.board-holder {
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.cell {width:40px; height:40px;text-align: center}
+.cell img {width:25px; height:auto}
+.floor {background-color: gray}
+.wall {background-color: brown}
+
+.name {
+    font-size: xx-large;
+    margin-left: 30%;
+}
+
+.score {
+    font-size: xx-large;
+    margin-left: 8%;
+}
+.restart button{
+    font-size: xx-large;
+    margin-left: 47%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: darkmagenta;
+    cursor: pointer;
+
+}
+
+.game-over {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 35%;
+    top: 35%;
+    font-size: xxx-large;
+    background-color: chartreuse;
+    color: darkmagenta;
+    text-align: center;
+    display: none;
+    border-radius: 20px;
+}
